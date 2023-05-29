@@ -2435,11 +2435,15 @@ body, .contentBox span, p, a, h1, h2, h3, h4 {
     text-align: left;
 }
 @media (max-width: 575px) {
+    .ittem-comment p {
+        font-size: 14px !important;
+        line-height: 18px!important;
+    }
     .ittem-comment p strong{
-        font-size: 9px !important;
+        font-size: 16px !important;
     }
     .ittem-comment p small{
-        font-size: 9px !important;
+        font-size: 12px !important;
     }
     .form-title h3{
         font-size: 15px;
